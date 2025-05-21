@@ -1,5 +1,7 @@
 # GhostCOM
 
+> A COM-based PowerShell beacon for red team persistence using Task Scheduler.
+
 ## Overview
 GhostCOM is a custom red team beacon built with PowerShell and Python that demonstrates persistence via the COM-based `Schedule.Service` interface. The beacon collects system information and sends it to a custom C2 server.
 
